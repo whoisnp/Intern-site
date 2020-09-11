@@ -1,7 +1,1 @@
-{
-  "short_name": "intern-site",
-  "name": "inter-site",
-  "icons": [],
-  "display": "standalone",
-  "orientation": "portrait"
-}
+{"short_name":"intern-site","name":"inter-site","icons":[],"display":"standalone","orientation":"portrait"}
