@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Intern-site</title>
-    <meta property="og:title" content="Internsite">
-    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="">
     <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Internsite">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="180x180" href="assets/img/apple-icon-180x180.png">
@@ -15,7 +16,9 @@
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
     <link rel="stylesheet" href="assets/css/gradient-navbar-1.css">
@@ -29,6 +32,18 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
         <div class="container-fluid"><strong></strong><a class="navbar-brand text-capitalize d-inline-block float-right" href="#">WhoisNP</a></div>
+    </nav>
+    <nav class="navbar navbar-dark fixed-top bg-dark off-canvas" data-right-drawer="0" data-open-drawer="1">
+        <div class="container-fluid flex-column"><button class="btn btn-dark drawer-knob" type="button" data-open="drawer"><i class="fas fa-bars"></i></button>
+            <div class="d-flex justify-content-between brand-line"><a class="navbar-brand" href="#">WhoisNP</a><button class="btn btn-dark" type="button" data-dismiss="drawer"><span class="sr-only">Toggle Navigation&nbsp;</span><i class="fas fa-times justify-content-start" style="color: #ffffff;"></i></button></div>
+            <ul
+                class="nav navbar-nav flex-column drawer-menu">
+                <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#">About Me</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#">Protfolio</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+        </div>
     </nav>
     <div class="article-clean">
         <div class="container">
