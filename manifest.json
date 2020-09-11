@@ -1,1 +1,1 @@
-{"short_name":"intern-site","name":"inter-site","icons":[{"src":"/assets/img/apple-icon-120x120.png","type":"image/png","sizes":"120x120"},{"src":"/assets/img/ms-icon-310x310.png","type":"image/png","sizes":"310x310"}],"start_url":"/index.html","display":"fullscreen"}
+{"short_name":"intern-site","name":"inter-site","icons":[{"src":"/assets/img/apple-icon-120x120.png","type":"image/png","sizes":"120x120"},{"src":"/assets/img/ms-icon-310x310.png","type":"image/png","sizes":"310x310"}],"start_url":"/index.html","display":"standalone","orientation":"portrait"}
